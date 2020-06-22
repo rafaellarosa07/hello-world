@@ -2,9 +2,9 @@ version: 0.0
 os: windows
 hooks:
   BeforeInstall:
-  - location: /scripts/deleta-aplicacao.bat
+  - location: /deleta-aplicacao.bat
   ApplicationStart:
-  - location: /scripts/reinicia-servidor.bat
+  - location: /reinicia-servidor.bat
 files:
   - source: target/*
     destination: C:\Users\Administrator\Desktop\jboss-eap-6.4.0\jboss-eap-6.4\standalone\deployments
