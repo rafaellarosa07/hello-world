@@ -6,5 +6,5 @@ hooks:
   ApplicationStart:
   - location: /scripts/reinicia-servidor.bat
 files:
-  - source: ./
+  - source: ./target/accs-javaee-hello-world.war
     destination: C:\Users\Administrator\Desktop\jboss-eap-6.4.0\jboss-eap-6.4\standalone\deployments
